@@ -1,0 +1,430 @@
+,Dataset,Subject,Group,Condition,TotalTime,TotalExpVar,psi/ctrl
+0,ctrl_sub001_meditation,sub001,non meditator,meditation,287.482,0.77295,ctrl
+1,ctrl_sub002_meditation,sub002,non meditator,meditation,284.144,0.7114,ctrl
+2,ctrl_sub003_meditation,sub003,non meditator,meditation,213.108,0.61148,ctrl
+3,ctrl_sub004_meditation,sub004,non meditator,meditation,290.366,0.809,ctrl
+4,ctrl_sub005_meditation,sub005,non meditator,meditation,287.624,0.77176,ctrl
+5,ctrl_sub006_meditation,sub006,non meditator,meditation,281.96,0.57628,ctrl
+6,ctrl_sub007_meditation,sub007,non meditator,meditation,287.7,0.74544,ctrl
+7,ctrl_sub008_meditation,sub008,non meditator,meditation,288.672,0.81251,ctrl
+8,ctrl_sub009_meditation,sub009,non meditator,meditation,283.24,0.67183,ctrl
+9,ctrl_sub010_meditation,sub010,non meditator,meditation,184.904,0.68266,ctrl
+10,ctrl_sub011_meditation,sub011,non meditator,meditation,276.582,0.69012,ctrl
+11,ctrl_sub012_meditation,sub012,non meditator,meditation,273.482,0.73609,ctrl
+12,ctrl_sub013_meditation,sub013,non meditator,meditation,268.354,0.66489,ctrl
+13,ctrl_sub014_meditation,sub014,non meditator,meditation,274.26,0.65621,ctrl
+14,ctrl_sub017_meditation,sub017,non meditator,meditation,273.824,0.64448,ctrl
+15,ctrl_sub018_meditation,sub018,non meditator,meditation,278.248,0.75795,ctrl
+16,ctrl_sub019_meditation,sub019,non meditator,meditation,288.674,0.73442,ctrl
+17,ctrl_sub020_meditation,sub020,non meditator,meditation,267.146,0.61422,ctrl
+18,ctrl_sub021_meditation,sub021,non meditator,meditation,279.578,0.72289,ctrl
+19,ctrl_sub022_meditation,sub022,non meditator,meditation,283.212,0.73019,ctrl
+20,ctrl_sub023_meditation,sub023,non meditator,meditation,277.704,0.68546,ctrl
+21,ctrl_sub025_meditation,sub025,non meditator,meditation,283.888,0.65207,ctrl
+22,ctrl_sub026_meditation,sub026,non meditator,meditation,282.292,0.72038,ctrl
+23,ctrl_sub027_meditation,sub027,non meditator,meditation,272.658,0.61576,ctrl
+24,ctrl_sub028_meditation,sub028,non meditator,meditation,269.696,0.63327,ctrl
+25,ctrl_sub029_meditation,sub029,non meditator,meditation,237.208,0.69981,ctrl
+26,ctrl_sub030_meditation,sub030,non meditator,meditation,287.544,0.80751,ctrl
+27,ctrl_sub031_meditation,sub031,non meditator,meditation,273.308,0.67769,ctrl
+28,ctrl_sub032_meditation,sub032,non meditator,meditation,324.886,0.71892,ctrl
+29,ctrl_sub201_meditation,sub201,meditator,meditation,285.498,0.66249,ctrl
+30,ctrl_sub204_meditation,sub204,meditator,meditation,287.298,0.85353,ctrl
+31,ctrl_sub205_meditation,sub205,meditator,meditation,241.238,0.77845,ctrl
+32,ctrl_sub206_meditation,sub206,meditator,meditation,113.66,0.62661,ctrl
+33,ctrl_sub207_meditation,sub207,meditator,meditation,284.864,0.64906,ctrl
+34,ctrl_sub208_meditation,sub208,meditator,meditation,261.374,0.66967,ctrl
+35,ctrl_sub209_meditation,sub209,meditator,meditation,289.604,0.7045,ctrl
+36,ctrl_sub210_meditation,sub210,meditator,meditation,281.21,0.67696,ctrl
+37,ctrl_sub211_meditation,sub211,meditator,meditation,285.428,0.64695,ctrl
+38,ctrl_sub212_meditation,sub212,meditator,meditation,279.554,0.62774,ctrl
+39,ctrl_sub213_meditation,sub213,meditator,meditation,279.392,0.68784,ctrl
+40,ctrl_sub214_meditation,sub214,meditator,meditation,266.408,0.66778,ctrl
+41,ctrl_sub215_meditation,sub215,meditator,meditation,264.078,0.6716,ctrl
+42,ctrl_sub216_meditation,sub216,meditator,meditation,243.862,0.70066,ctrl
+43,ctrl_sub217_meditation,sub217,meditator,meditation,283.878,0.6683,ctrl
+44,ctrl_sub218_meditation,sub218,meditator,meditation,276.728,0.62708,ctrl
+45,ctrl_sub219_meditation,sub219,meditator,meditation,289.252,0.82505,ctrl
+46,ctrl_sub220_meditation,sub220,meditator,meditation,282.294,0.68923,ctrl
+47,ctrl_sub221_meditation,sub221,meditator,meditation,286.394,0.6351,ctrl
+48,ctrl_sub222_meditation,sub222,meditator,meditation,274.462,0.68105,ctrl
+49,ctrl_sub223_meditation,sub223,meditator,meditation,281.292,0.70861,ctrl
+50,ctrl_sub224_meditation,sub224,meditator,meditation,286.056,0.64647,ctrl
+51,ctrl_sub225_meditation,sub225,meditator,meditation,289.46,0.66661,ctrl
+52,ctrl_sub226_meditation,sub226,meditator,meditation,264.054,0.61612,ctrl
+53,ctrl_sub227_meditation,sub227,meditator,meditation,162.77,0.59165,ctrl
+54,ctrl_sub228_meditation,sub228,meditator,meditation,289.036,0.70527,ctrl
+55,ctrl_sub229_meditation,sub229,meditator,meditation,286.99,0.71526,ctrl
+56,ctrl_sub230_meditation,sub230,meditator,meditation,286.208,0.72541,ctrl
+57,ctrl_sub231_meditation,sub231,meditator,meditation,285.178,0.68066,ctrl
+58,ctrl_sub232_meditation,sub232,meditator,meditation,277.284,0.6345,ctrl
+59,ctrl_sub233_meditation,sub233,meditator,meditation,289.35,0.72345,ctrl
+60,ctrl_sub001_music,sub001,non meditator,music,319.75,0.76541,ctrl
+61,ctrl_sub002_music,sub002,non meditator,music,313.854,0.68381,ctrl
+62,ctrl_sub003_music,sub003,non meditator,music,294.192,0.61323,ctrl
+63,ctrl_sub004_music,sub004,non meditator,music,322.812,0.81394,ctrl
+64,ctrl_sub005_music,sub005,non meditator,music,246.546,0.69878,ctrl
+65,ctrl_sub006_music,sub006,non meditator,music,310.4,0.59323,ctrl
+66,ctrl_sub007_music,sub007,non meditator,music,266.228,0.71387,ctrl
+67,ctrl_sub008_music,sub008,non meditator,music,321.074,0.80855,ctrl
+68,ctrl_sub009_music,sub009,non meditator,music,307.298,0.60044,ctrl
+69,ctrl_sub010_music,sub010,non meditator,music,265.982,0.65948,ctrl
+70,ctrl_sub011_music,sub011,non meditator,music,302.708,0.67198,ctrl
+71,ctrl_sub012_music,sub012,non meditator,music,311.232,0.71574,ctrl
+72,ctrl_sub013_music,sub013,non meditator,music,299.608,0.66533,ctrl
+73,ctrl_sub014_music,sub014,non meditator,music,299.444,0.6508,ctrl
+74,ctrl_sub017_music,sub017,non meditator,music,302.062,0.64282,ctrl
+75,ctrl_sub018_music,sub018,non meditator,music,309.374,0.75156,ctrl
+76,ctrl_sub019_music,sub019,non meditator,music,319.606,0.67899,ctrl
+77,ctrl_sub020_music,sub020,non meditator,music,308.558,0.58977,ctrl
+78,ctrl_sub021_music,sub021,non meditator,music,317.796,0.69656,ctrl
+79,ctrl_sub022_music,sub022,non meditator,music,315.61,0.67925,ctrl
+80,ctrl_sub023_music,sub023,non meditator,music,295.314,0.66094,ctrl
+81,ctrl_sub025_music,sub025,non meditator,music,314.518,0.6656,ctrl
+82,ctrl_sub026_music,sub026,non meditator,music,313.81,0.72889,ctrl
+83,ctrl_sub027_music,sub027,non meditator,music,293.946,0.6137,ctrl
+84,ctrl_sub028_music,sub028,non meditator,music,290.254,0.64398,ctrl
+85,ctrl_sub029_music,sub029,non meditator,music,280.492,0.67169,ctrl
+86,ctrl_sub030_music,sub030,non meditator,music,310.34,0.75747,ctrl
+87,ctrl_sub031_music,sub031,non meditator,music,310.616,0.67597,ctrl
+88,ctrl_sub032_music,sub032,non meditator,music,318.554,0.70908,ctrl
+89,ctrl_sub201_music,sub201,meditator,music,307.18,0.65718,ctrl
+90,ctrl_sub204_music,sub204,meditator,music,316.604,0.83342,ctrl
+91,ctrl_sub205_music,sub205,meditator,music,316.832,0.80667,ctrl
+92,ctrl_sub206_music,sub206,meditator,music,146.574,0.61604,ctrl
+93,ctrl_sub207_music,sub207,meditator,music,305.092,0.6349,ctrl
+94,ctrl_sub208_music,sub208,meditator,music,290.434,0.63411,ctrl
+95,ctrl_sub209_music,sub209,meditator,music,318.768,0.70508,ctrl
+96,ctrl_sub210_music,sub210,meditator,music,284.864,0.65,ctrl
+97,ctrl_sub211_music,sub211,meditator,music,314.874,0.64477,ctrl
+98,ctrl_sub212_music,sub212,meditator,music,255.51,0.58977,ctrl
+99,ctrl_sub213_music,sub213,meditator,music,315.128,0.69149,ctrl
+100,ctrl_sub214_music,sub214,meditator,music,291.256,0.67549,ctrl
+101,ctrl_sub215_music,sub215,meditator,music,259.332,0.67577,ctrl
+102,ctrl_sub216_music,sub216,meditator,music,266.286,0.68296,ctrl
+103,ctrl_sub217_music,sub217,meditator,music,309.904,0.64953,ctrl
+104,ctrl_sub218_music,sub218,meditator,music,290.536,0.61023,ctrl
+105,ctrl_sub219_music,sub219,meditator,music,318.822,0.7881,ctrl
+106,ctrl_sub220_music,sub220,meditator,music,294.062,0.65033,ctrl
+107,ctrl_sub221_music,sub221,meditator,music,308.716,0.62621,ctrl
+108,ctrl_sub222_music,sub222,meditator,music,306.934,0.62731,ctrl
+109,ctrl_sub223_music,sub223,meditator,music,303.49,0.63491,ctrl
+110,ctrl_sub224_music,sub224,meditator,music,306.456,0.63227,ctrl
+111,ctrl_sub225_music,sub225,meditator,music,257.03,0.6218,ctrl
+112,ctrl_sub226_music,sub226,meditator,music,276.078,0.61082,ctrl
+113,ctrl_sub227_music,sub227,meditator,music,180.44,0.62524,ctrl
+114,ctrl_sub228_music,sub228,meditator,music,319.122,0.67586,ctrl
+115,ctrl_sub229_music,sub229,meditator,music,315.196,0.68585,ctrl
+116,ctrl_sub230_music,sub230,meditator,music,315.522,0.73077,ctrl
+117,ctrl_sub231_music,sub231,meditator,music,314.744,0.67235,ctrl
+118,ctrl_sub232_music,sub232,meditator,music,250.386,0.63504,ctrl
+119,ctrl_sub233_music,sub233,meditator,music,288.026,0.66446,ctrl
+120,ctrl_sub002_restingstate,sub002,non meditator,restingstate,285.222,0.69423,ctrl
+121,ctrl_sub003_restingstate,sub003,non meditator,restingstate,256.552,0.63196,ctrl
+122,ctrl_sub004_restingstate,sub004,non meditator,restingstate,289.294,0.80133,ctrl
+123,ctrl_sub005_restingstate,sub005,non meditator,restingstate,284.27,0.78305,ctrl
+124,ctrl_sub006_restingstate,sub006,non meditator,restingstate,279.394,0.58585,ctrl
+125,ctrl_sub007_restingstate,sub007,non meditator,restingstate,280.414,0.7521,ctrl
+126,ctrl_sub008_restingstate,sub008,non meditator,restingstate,289.316,0.82862,ctrl
+127,ctrl_sub009_restingstate,sub009,non meditator,restingstate,279.686,0.59385,ctrl
+128,ctrl_sub010_restingstate,sub010,non meditator,restingstate,277.718,0.7525,ctrl
+129,ctrl_sub011_restingstate,sub011,non meditator,restingstate,254.982,0.68581,ctrl
+130,ctrl_sub012_restingstate,sub012,non meditator,restingstate,272.806,0.7128,ctrl
+131,ctrl_sub013_restingstate,sub013,non meditator,restingstate,260.984,0.67193,ctrl
+132,ctrl_sub014_restingstate,sub014,non meditator,restingstate,275.612,0.68274,ctrl
+133,ctrl_sub017_restingstate,sub017,non meditator,restingstate,278.682,0.61762,ctrl
+134,ctrl_sub018_restingstate,sub018,non meditator,restingstate,275.526,0.76148,ctrl
+135,ctrl_sub019_restingstate,sub019,non meditator,restingstate,288.274,0.76853,ctrl
+136,ctrl_sub020_restingstate,sub020,non meditator,restingstate,265.972,0.59359,ctrl
+137,ctrl_sub021_restingstate,sub021,non meditator,restingstate,289.04,0.74384,ctrl
+138,ctrl_sub022_restingstate,sub022,non meditator,restingstate,286.494,0.70366,ctrl
+139,ctrl_sub023_restingstate,sub023,non meditator,restingstate,280.496,0.69631,ctrl
+140,ctrl_sub025_restingstate,sub025,non meditator,restingstate,282.362,0.63944,ctrl
+141,ctrl_sub026_restingstate,sub026,non meditator,restingstate,279.328,0.72989,ctrl
+142,ctrl_sub027_restingstate,sub027,non meditator,restingstate,277.268,0.61181,ctrl
+143,ctrl_sub028_restingstate,sub028,non meditator,restingstate,284.954,0.6842,ctrl
+144,ctrl_sub029_restingstate,sub029,non meditator,restingstate,273.008,0.75323,ctrl
+145,ctrl_sub030_restingstate,sub030,non meditator,restingstate,287.734,0.82857,ctrl
+146,ctrl_sub031_restingstate,sub031,non meditator,restingstate,272.358,0.6933,ctrl
+147,ctrl_sub032_restingstate,sub032,non meditator,restingstate,291.502,0.72208,ctrl
+148,ctrl_sub201_restingstate,sub201,meditator,restingstate,285.888,0.65268,ctrl
+149,ctrl_sub204_restingstate,sub204,meditator,restingstate,277.454,0.59387,ctrl
+150,ctrl_sub205_restingstate,sub205,meditator,restingstate,282.528,0.78486,ctrl
+151,ctrl_sub206_restingstate,sub206,meditator,restingstate,289.122,0.74666,ctrl
+152,ctrl_sub207_restingstate,sub207,meditator,restingstate,273.794,0.64908,ctrl
+153,ctrl_sub208_restingstate,sub208,meditator,restingstate,219.846,0.68237,ctrl
+154,ctrl_sub209_restingstate,sub209,meditator,restingstate,283.394,0.68938,ctrl
+155,ctrl_sub210_restingstate,sub210,meditator,restingstate,283.112,0.64067,ctrl
+156,ctrl_sub211_restingstate,sub211,meditator,restingstate,126.264,0.6926,ctrl
+157,ctrl_sub212_restingstate,sub212,meditator,restingstate,281.144,0.63069,ctrl
+158,ctrl_sub213_restingstate,sub213,meditator,restingstate,273.474,0.69337,ctrl
+159,ctrl_sub214_restingstate,sub214,meditator,restingstate,281.742,0.69693,ctrl
+160,ctrl_sub215_restingstate,sub215,meditator,restingstate,271.182,0.69447,ctrl
+161,ctrl_sub216_restingstate,sub216,meditator,restingstate,264.178,0.73077,ctrl
+162,ctrl_sub217_restingstate,sub217,meditator,restingstate,281.594,0.68112,ctrl
+163,ctrl_sub218_restingstate,sub218,meditator,restingstate,275.75,0.66258,ctrl
+164,ctrl_sub219_restingstate,sub219,meditator,restingstate,287.684,0.8304,ctrl
+165,ctrl_sub220_restingstate,sub220,meditator,restingstate,286.776,0.69702,ctrl
+166,ctrl_sub221_restingstate,sub221,meditator,restingstate,285.22,0.64415,ctrl
+167,ctrl_sub222_restingstate,sub222,meditator,restingstate,281.362,0.70072,ctrl
+168,ctrl_sub223_restingstate,sub223,meditator,restingstate,282.474,0.67937,ctrl
+169,ctrl_sub224_restingstate,sub224,meditator,restingstate,243.902,0.70486,ctrl
+170,ctrl_sub225_restingstate,sub225,meditator,restingstate,290.716,0.66922,ctrl
+171,ctrl_sub226_restingstate,sub226,meditator,restingstate,282.574,0.65995,ctrl
+172,ctrl_sub227_restingstate,sub227,meditator,restingstate,290.616,0.82711,ctrl
+173,ctrl_sub228_restingstate,sub228,meditator,restingstate,291.004,0.69863,ctrl
+174,ctrl_sub229_restingstate,sub229,meditator,restingstate,283.874,0.70234,ctrl
+175,ctrl_sub230_restingstate,sub230,meditator,restingstate,286.95,0.7552,ctrl
+176,ctrl_sub231_restingstate,sub231,meditator,restingstate,283.43,0.69487,ctrl
+177,ctrl_sub232_restingstate,sub232,meditator,restingstate,255.838,0.5513,ctrl
+178,ctrl_sub233_restingstate,sub233,meditator,restingstate,289.814,0.72899,ctrl
+179,ctrl_sub001_video,sub001,non meditator,video,174.896,0.69758,ctrl
+180,ctrl_sub004_video,sub004,non meditator,video,270.146,0.63308,ctrl
+181,ctrl_sub005_video,sub005,non meditator,video,251.814,0.64711,ctrl
+182,ctrl_sub006_video,sub006,non meditator,video,229.306,0.5532,ctrl
+183,ctrl_sub007_video,sub007,non meditator,video,172.264,0.64775,ctrl
+184,ctrl_sub008_video,sub008,non meditator,video,264.742,0.61937,ctrl
+185,ctrl_sub009_video,sub009,non meditator,video,244.056,0.53625,ctrl
+186,ctrl_sub010_video,sub010,non meditator,video,90.89,0.63318,ctrl
+187,ctrl_sub011_video,sub011,non meditator,video,254.188,0.58356,ctrl
+188,ctrl_sub012_video,sub012,non meditator,video,221.058,0.54754,ctrl
+189,ctrl_sub013_video,sub013,non meditator,video,246.176,0.59681,ctrl
+190,ctrl_sub014_video,sub014,non meditator,video,268.878,0.69202,ctrl
+191,ctrl_sub017_video,sub017,non meditator,video,222.774,0.56231,ctrl
+192,ctrl_sub018_video,sub018,non meditator,video,269.588,0.63381,ctrl
+193,ctrl_sub019_video,sub019,non meditator,video,274.422,0.526,ctrl
+194,ctrl_sub020_video,sub020,non meditator,video,255.212,0.57272,ctrl
+195,ctrl_sub021_video,sub021,non meditator,video,214.9,0.57232,ctrl
+196,ctrl_sub022_video,sub022,non meditator,video,262.238,0.62504,ctrl
+197,ctrl_sub023_video,sub023,non meditator,video,152.082,0.62954,ctrl
+198,ctrl_sub025_video,sub025,non meditator,video,226.452,0.61486,ctrl
+199,ctrl_sub027_video,sub027,non meditator,video,142.598,0.53756,ctrl
+200,ctrl_sub028_video,sub028,non meditator,video,154.552,0.64712,ctrl
+201,ctrl_sub031_video,sub031,non meditator,video,255.136,0.52969,ctrl
+202,ctrl_sub032_video,sub032,non meditator,video,239.366,0.61952,ctrl
+203,ctrl_sub201_video,sub201,meditator,video,122.052,0.67472,ctrl
+204,ctrl_sub204_video,sub204,meditator,video,254.598,0.58273,ctrl
+205,ctrl_sub205_video,sub205,meditator,video,276.61,0.56533,ctrl
+206,ctrl_sub206_video,sub206,meditator,video,216.884,0.6437,ctrl
+207,ctrl_sub207_video,sub207,meditator,video,249.676,0.48839,ctrl
+208,ctrl_sub208_video,sub208,meditator,video,178.9,0.52858,ctrl
+209,ctrl_sub209_video,sub209,meditator,video,259.642,0.56546,ctrl
+210,ctrl_sub210_video,sub210,meditator,video,203.972,0.6515,ctrl
+211,ctrl_sub211_video,sub211,meditator,video,184.818,0.56286,ctrl
+212,ctrl_sub212_video,sub212,meditator,video,231.244,0.52686,ctrl
+213,ctrl_sub213_video,sub213,meditator,video,270.44,0.59051,ctrl
+214,ctrl_sub215_video,sub215,meditator,video,241.272,0.53274,ctrl
+215,ctrl_sub216_video,sub216,meditator,video,144.02,0.50982,ctrl
+216,ctrl_sub217_video,sub217,meditator,video,227.92,0.49955,ctrl
+217,ctrl_sub219_video,sub219,meditator,video,269.678,0.64952,ctrl
+218,ctrl_sub220_video,sub220,meditator,video,249.492,0.5771,ctrl
+219,ctrl_sub221_video,sub221,meditator,video,258.952,0.50635,ctrl
+220,ctrl_sub222_video,sub222,meditator,video,184.04,0.61359,ctrl
+221,ctrl_sub223_video,sub223,meditator,video,263.268,0.61401,ctrl
+222,ctrl_sub224_video,sub224,meditator,video,225.552,0.6054,ctrl
+223,ctrl_sub225_video,sub225,meditator,video,258.36,0.61612,ctrl
+224,ctrl_sub226_video,sub226,meditator,video,275.44,0.57928,ctrl
+225,ctrl_sub227_video,sub227,meditator,video,173.358,0.5793,ctrl
+226,ctrl_sub228_video,sub228,meditator,video,281.85,0.66917,ctrl
+227,ctrl_sub229_video,sub229,meditator,video,257.314,0.5525,ctrl
+228,ctrl_sub230_video,sub230,meditator,video,236.122,0.6369,ctrl
+229,ctrl_sub231_video,sub231,meditator,video,161.588,0.62127,ctrl
+230,ctrl_sub232_video,sub232,meditator,video,173.684,0.59844,ctrl
+231,ctrl_sub233_video,sub233,meditator,video,259.764,0.59082,ctrl
+232,psi_sub001_meditation,sub001,non meditator,meditation,288.888,0.79122,psi
+233,psi_sub005_meditation,sub005,non meditator,meditation,224.386,0.68905,psi
+234,psi_sub006_meditation,sub006,non meditator,meditation,248.386,0.54482,psi
+235,psi_sub007_meditation,sub007,non meditator,meditation,278.444,0.72789,psi
+236,psi_sub008_meditation,sub008,non meditator,meditation,280.316,0.72898,psi
+237,psi_sub009_meditation,sub009,non meditator,meditation,273.948,0.63005,psi
+238,psi_sub010_meditation,sub010,non meditator,meditation,250.98,0.64097,psi
+239,psi_sub012_meditation,sub012,non meditator,meditation,244.762,0.6913,psi
+240,psi_sub013_meditation,sub013,non meditator,meditation,265.452,0.5312,psi
+241,psi_sub014_meditation,sub014,non meditator,meditation,254.43,0.64198,psi
+242,psi_sub015_meditation,sub015,non meditator,meditation,270.128,0.65058,psi
+243,psi_sub017_meditation,sub017,non meditator,meditation,274.564,0.66382,psi
+244,psi_sub018_meditation,sub018,non meditator,meditation,276.344,0.76277,psi
+245,psi_sub019_meditation,sub019,non meditator,meditation,283.352,0.66707,psi
+246,psi_sub020_meditation,sub020,non meditator,meditation,276.142,0.58368,psi
+247,psi_sub021_meditation,sub021,non meditator,meditation,269.366,0.7203,psi
+248,psi_sub022_meditation,sub022,non meditator,meditation,194.932,0.72943,psi
+249,psi_sub023_meditation,sub023,non meditator,meditation,276.896,0.66844,psi
+250,psi_sub025_meditation,sub025,non meditator,meditation,279.056,0.66905,psi
+251,psi_sub026_meditation,sub026,non meditator,meditation,266.304,0.61841,psi
+252,psi_sub027_meditation,sub027,non meditator,meditation,217.536,0.56633,psi
+253,psi_sub028_meditation,sub028,non meditator,meditation,270.346,0.64657,psi
+254,psi_sub029_meditation,sub029,non meditator,meditation,210.052,0.64069,psi
+255,psi_sub030_meditation,sub030,non meditator,meditation,269.188,0.70169,psi
+256,psi_sub031_meditation,sub031,non meditator,meditation,266.94,0.62603,psi
+257,psi_sub032_meditation,sub032,non meditator,meditation,285.976,0.69283,psi
+258,psi_sub201_meditation,sub201,meditator,meditation,143.068,0.63053,psi
+259,psi_sub202_meditation,sub202,meditator,meditation,242.328,0.73833,psi
+260,psi_sub203_meditation,sub203,meditator,meditation,262.34,0.61674,psi
+261,psi_sub204_meditation,sub204,meditator,meditation,254.924,0.74621,psi
+262,psi_sub205_meditation,sub205,meditator,meditation,269.078,0.65457,psi
+263,psi_sub206_meditation,sub206,meditator,meditation,220.526,0.70075,psi
+264,psi_sub207_meditation,sub207,meditator,meditation,276.99,0.55002,psi
+265,psi_sub208_meditation,sub208,meditator,meditation,269.46,0.77254,psi
+266,psi_sub209_meditation,sub209,meditator,meditation,282.216,0.6792,psi
+267,psi_sub210_meditation,sub210,meditator,meditation,283.75,0.68568,psi
+268,psi_sub211_meditation,sub211,meditator,meditation,264.188,0.72551,psi
+269,psi_sub213_meditation,sub213,meditator,meditation,278.56,0.68647,psi
+270,psi_sub214_meditation,sub214,meditator,meditation,226.78,0.61346,psi
+271,psi_sub216_meditation,sub216,meditator,meditation,186.432,0.68112,psi
+272,psi_sub217_meditation,sub217,meditator,meditation,242.79,0.5836,psi
+273,psi_sub218_meditation,sub218,meditator,meditation,189.794,0.59938,psi
+274,psi_sub219_meditation,sub219,meditator,meditation,287.956,0.78083,psi
+275,psi_sub220_meditation,sub220,meditator,meditation,286.928,0.69405,psi
+276,psi_sub221_meditation,sub221,meditator,meditation,280.33,0.65104,psi
+277,psi_sub222_meditation,sub222,meditator,meditation,277.766,0.63036,psi
+278,psi_sub223_meditation,sub223,meditator,meditation,279.768,0.61794,psi
+279,psi_sub224_meditation,sub224,meditator,meditation,275.948,0.65935,psi
+280,psi_sub225_meditation,sub225,meditator,meditation,287.972,0.6994,psi
+281,psi_sub227_meditation,sub227,meditator,meditation,214.364,0.79333,psi
+282,psi_sub228_meditation,sub228,meditator,meditation,291.026,0.77928,psi
+283,psi_sub229_meditation,sub229,meditator,meditation,280.492,0.58267,psi
+284,psi_sub230_meditation,sub230,meditator,meditation,285.452,0.72959,psi
+285,psi_sub233_meditation,sub233,meditator,meditation,284.118,0.73562,psi
+286,psi_sub001_music,sub001,non meditator,music,317.586,0.78198,psi
+287,psi_sub005_music,sub005,non meditator,music,252.274,0.66553,psi
+288,psi_sub006_music,sub006,non meditator,music,294.942,0.60673,psi
+289,psi_sub007_music,sub007,non meditator,music,306.728,0.72118,psi
+290,psi_sub008_music,sub008,non meditator,music,312.226,0.67964,psi
+291,psi_sub010_music,sub010,non meditator,music,221.29,0.61427,psi
+292,psi_sub012_music,sub012,non meditator,music,245.886,0.67354,psi
+293,psi_sub013_music,sub013,non meditator,music,288.668,0.58801,psi
+294,psi_sub014_music,sub014,non meditator,music,230.886,0.63922,psi
+295,psi_sub015_music,sub015,non meditator,music,296.952,0.64064,psi
+296,psi_sub017_music,sub017,non meditator,music,302.49,0.68986,psi
+297,psi_sub018_music,sub018,non meditator,music,308.308,0.75193,psi
+298,psi_sub019_music,sub019,non meditator,music,317.598,0.73877,psi
+299,psi_sub020_music,sub020,non meditator,music,303.946,0.54684,psi
+300,psi_sub022_music,sub022,non meditator,music,152.288,0.66737,psi
+301,psi_sub023_music,sub023,non meditator,music,305.974,0.6706,psi
+302,psi_sub025_music,sub025,non meditator,music,310.634,0.66332,psi
+303,psi_sub026_music,sub026,non meditator,music,269.93,0.69211,psi
+304,psi_sub027_music,sub027,non meditator,music,229.398,0.61322,psi
+305,psi_sub028_music,sub028,non meditator,music,312.122,0.74388,psi
+306,psi_sub029_music,sub029,non meditator,music,219.438,0.70014,psi
+307,psi_sub030_music,sub030,non meditator,music,307.36,0.7052,psi
+308,psi_sub031_music,sub031,non meditator,music,303.008,0.63388,psi
+309,psi_sub032_music,sub032,non meditator,music,309.876,0.69591,psi
+310,psi_sub201_music,sub201,meditator,music,199.932,0.65841,psi
+311,psi_sub202_music,sub202,meditator,music,281.388,0.73506,psi
+312,psi_sub203_music,sub203,meditator,music,297.772,0.6216,psi
+313,psi_sub204_music,sub204,meditator,music,238.768,0.77657,psi
+314,psi_sub205_music,sub205,meditator,music,273.498,0.57365,psi
+315,psi_sub206_music,sub206,meditator,music,162.266,0.6367,psi
+316,psi_sub207_music,sub207,meditator,music,307.354,0.58497,psi
+317,psi_sub208_music,sub208,meditator,music,287.256,0.76872,psi
+318,psi_sub209_music,sub209,meditator,music,305.98,0.67009,psi
+319,psi_sub210_music,sub210,meditator,music,308.372,0.6562,psi
+320,psi_sub211_music,sub211,meditator,music,292.122,0.69877,psi
+321,psi_sub213_music,sub213,meditator,music,278.912,0.68457,psi
+322,psi_sub214_music,sub214,meditator,music,250.704,0.68202,psi
+323,psi_sub216_music,sub216,meditator,music,266.572,0.70766,psi
+324,psi_sub217_music,sub217,meditator,music,256.298,0.55407,psi
+325,psi_sub218_music,sub218,meditator,music,246.462,0.63534,psi
+326,psi_sub219_music,sub219,meditator,music,319.56,0.78861,psi
+327,psi_sub220_music,sub220,meditator,music,318.244,0.69101,psi
+328,psi_sub221_music,sub221,meditator,music,294.938,0.59336,psi
+329,psi_sub222_music,sub222,meditator,music,312.098,0.60843,psi
+330,psi_sub223_music,sub223,meditator,music,311.292,0.63661,psi
+331,psi_sub224_music,sub224,meditator,music,282.328,0.6555,psi
+332,psi_sub225_music,sub225,meditator,music,320.744,0.71882,psi
+333,psi_sub227_music,sub227,meditator,music,185.596,0.64051,psi
+334,psi_sub228_music,sub228,meditator,music,322.406,0.78206,psi
+335,psi_sub229_music,sub229,meditator,music,295.726,0.53529,psi
+336,psi_sub230_music,sub230,meditator,music,307.4,0.74001,psi
+337,psi_sub233_music,sub233,meditator,music,303.646,0.72795,psi
+338,psi_sub001_restingstate,sub001,non meditator,restingstate,287.732,0.77834,psi
+339,psi_sub005_restingstate,sub005,non meditator,restingstate,239.938,0.67471,psi
+340,psi_sub006_restingstate,sub006,non meditator,restingstate,260.066,0.5787,psi
+341,psi_sub007_restingstate,sub007,non meditator,restingstate,262.018,0.71746,psi
+342,psi_sub008_restingstate,sub008,non meditator,restingstate,276.716,0.74094,psi
+343,psi_sub009_restingstate,sub009,non meditator,restingstate,256.276,0.61718,psi
+344,psi_sub010_restingstate,sub010,non meditator,restingstate,289.464,0.74783,psi
+345,psi_sub012_restingstate,sub012,non meditator,restingstate,242.23,0.64103,psi
+346,psi_sub013_restingstate,sub013,non meditator,restingstate,262.066,0.58797,psi
+347,psi_sub014_restingstate,sub014,non meditator,restingstate,265.364,0.64016,psi
+348,psi_sub015_restingstate,sub015,non meditator,restingstate,275.672,0.66837,psi
+349,psi_sub017_restingstate,sub017,non meditator,restingstate,266.662,0.6823,psi
+350,psi_sub018_restingstate,sub018,non meditator,restingstate,240.506,0.73994,psi
+351,psi_sub019_restingstate,sub019,non meditator,restingstate,284.714,0.70722,psi
+352,psi_sub020_restingstate,sub020,non meditator,restingstate,278.652,0.55049,psi
+353,psi_sub022_restingstate,sub022,non meditator,restingstate,152.97,0.67566,psi
+354,psi_sub023_restingstate,sub023,non meditator,restingstate,267.726,0.67687,psi
+355,psi_sub025_restingstate,sub025,non meditator,restingstate,276.278,0.65051,psi
+356,psi_sub026_restingstate,sub026,non meditator,restingstate,258.272,0.61261,psi
+357,psi_sub027_restingstate,sub027,non meditator,restingstate,233.898,0.56606,psi
+358,psi_sub028_restingstate,sub028,non meditator,restingstate,257.248,0.64135,psi
+359,psi_sub029_restingstate,sub029,non meditator,restingstate,181.09,0.62475,psi
+360,psi_sub030_restingstate,sub030,non meditator,restingstate,274.84,0.68328,psi
+361,psi_sub031_restingstate,sub031,non meditator,restingstate,278.666,0.60109,psi
+362,psi_sub032_restingstate,sub032,non meditator,restingstate,278.496,0.7352,psi
+363,psi_sub202_restingstate,sub202,meditator,restingstate,263.372,0.72528,psi
+364,psi_sub203_restingstate,sub203,meditator,restingstate,269.65,0.64391,psi
+365,psi_sub204_restingstate,sub204,meditator,restingstate,210.764,0.79295,psi
+366,psi_sub205_restingstate,sub205,meditator,restingstate,243.286,0.58984,psi
+367,psi_sub206_restingstate,sub206,meditator,restingstate,243.448,0.72275,psi
+368,psi_sub207_restingstate,sub207,meditator,restingstate,269.108,0.47586,psi
+369,psi_sub208_restingstate,sub208,meditator,restingstate,259.392,0.75746,psi
+370,psi_sub209_restingstate,sub209,meditator,restingstate,280.188,0.6657,psi
+371,psi_sub210_restingstate,sub210,meditator,restingstate,284.336,0.70548,psi
+372,psi_sub211_restingstate,sub211,meditator,restingstate,226.5,0.73941,psi
+373,psi_sub213_restingstate,sub213,meditator,restingstate,266.924,0.64592,psi
+374,psi_sub214_restingstate,sub214,meditator,restingstate,232.6,0.67573,psi
+375,psi_sub216_restingstate,sub216,meditator,restingstate,187.198,0.70308,psi
+376,psi_sub217_restingstate,sub217,meditator,restingstate,191.824,0.53224,psi
+377,psi_sub218_restingstate,sub218,meditator,restingstate,189.148,0.62183,psi
+378,psi_sub219_restingstate,sub219,meditator,restingstate,287.394,0.80103,psi
+379,psi_sub220_restingstate,sub220,meditator,restingstate,283.838,0.69219,psi
+380,psi_sub221_restingstate,sub221,meditator,restingstate,274.774,0.64487,psi
+381,psi_sub222_restingstate,sub222,meditator,restingstate,257.466,0.64896,psi
+382,psi_sub223_restingstate,sub223,meditator,restingstate,277.188,0.64415,psi
+383,psi_sub224_restingstate,sub224,meditator,restingstate,274.42,0.69073,psi
+384,psi_sub225_restingstate,sub225,meditator,restingstate,286.942,0.70111,psi
+385,psi_sub227_restingstate,sub227,meditator,restingstate,128.866,0.71414,psi
+386,psi_sub228_restingstate,sub228,meditator,restingstate,284.796,0.76192,psi
+387,psi_sub229_restingstate,sub229,meditator,restingstate,269.172,0.53714,psi
+388,psi_sub230_restingstate,sub230,meditator,restingstate,284.93,0.74862,psi
+389,psi_sub233_restingstate,sub233,meditator,restingstate,283.28,0.73934,psi
+390,psi_sub001_video,sub001,non meditator,video,122.588,0.73165,psi
+391,psi_sub005_video,sub005,non meditator,video,227.186,0.59357,psi
+392,psi_sub006_video,sub006,non meditator,video,233.122,0.55097,psi
+393,psi_sub007_video,sub007,non meditator,video,184.57,0.59912,psi
+394,psi_sub010_video,sub010,non meditator,video,274.778,0.59113,psi
+395,psi_sub012_video,sub012,non meditator,video,228.05,0.60717,psi
+396,psi_sub013_video,sub013,non meditator,video,238.348,0.48181,psi
+397,psi_sub015_video,sub015,non meditator,video,193.524,0.63653,psi
+398,psi_sub018_video,sub018,non meditator,video,214.92,0.60856,psi
+399,psi_sub020_video,sub020,non meditator,video,255.312,0.60879,psi
+400,psi_sub023_video,sub023,non meditator,video,174.132,0.58354,psi
+401,psi_sub025_video,sub025,non meditator,video,258.7,0.62774,psi
+402,psi_sub026_video,sub026,non meditator,video,177.912,0.51026,psi
+403,psi_sub027_video,sub027,non meditator,video,161.936,0.59558,psi
+404,psi_sub028_video,sub028,non meditator,video,206.28,0.69053,psi
+405,psi_sub031_video,sub031,non meditator,video,272.198,0.58548,psi
+406,psi_sub032_video,sub032,non meditator,video,249.548,0.63228,psi
+407,psi_sub202_video,sub202,meditator,video,247.54,0.6481,psi
+408,psi_sub203_video,sub203,meditator,video,173.896,0.62176,psi
+409,psi_sub204_video,sub204,meditator,video,188.192,0.63987,psi
+410,psi_sub206_video,sub206,meditator,video,206.798,0.60609,psi
+411,psi_sub208_video,sub208,meditator,video,133.782,0.73246,psi
+412,psi_sub209_video,sub209,meditator,video,255.932,0.56145,psi
+413,psi_sub210_video,sub210,meditator,video,263.278,0.62493,psi
+414,psi_sub213_video,sub213,meditator,video,206.814,0.62761,psi
+415,psi_sub217_video,sub217,meditator,video,158.402,0.49002,psi
+416,psi_sub218_video,sub218,meditator,video,230.892,0.48611,psi
+417,psi_sub219_video,sub219,meditator,video,278.902,0.66433,psi
+418,psi_sub220_video,sub220,meditator,video,231.644,0.6154,psi
+419,psi_sub221_video,sub221,meditator,video,210.426,0.5871,psi
+420,psi_sub222_video,sub222,meditator,video,174.776,0.67938,psi
+421,psi_sub223_video,sub223,meditator,video,265.334,0.6132,psi
+422,psi_sub224_video,sub224,meditator,video,176.836,0.55806,psi
+423,psi_sub225_video,sub225,meditator,video,257.652,0.63176,psi
+424,psi_sub227_video,sub227,meditator,video,117.726,0.56059,psi
+425,psi_sub228_video,sub228,meditator,video,225.638,0.77388,psi
+426,psi_sub229_video,sub229,meditator,video,218.578,0.52146,psi
+427,psi_sub230_video,sub230,meditator,video,227.43,0.60943,psi
+428,psi_sub233_video,sub233,meditator,video,268.326,0.62427,psi

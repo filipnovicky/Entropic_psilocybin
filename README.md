@@ -1,4 +1,4 @@
-This repository contains documents to reproduce analyses done for the paper 'Psilocybin-Induced Alterations in EEG Microstates and Signal Complexity: Evidence for the Entropic Brain Hypothesis by Filip Novicky et al.'. The following lines explain every file:
+This repository contains documents to reproduce analyses done for the paper 'Psilocybin Accelerates EEG Microstate Transitions and Elevates Approximate Entropy by Filip Novicky et al.'. The following lines explain every file:
 
 df_microstates.csv and shared_variance.csv are direct outputs from the MICROSTATELAB plugin in EEGLAB. Note that var_and_time.csv - a file containing variance and time per microstate - is separated from df_microstates.csv, although they were produced by the same plugin. Lastly, these files are further processed in psilocybin_microstates.ipynb where statistical analyses and figures are produced.
 

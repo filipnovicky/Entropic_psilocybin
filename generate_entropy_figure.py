@@ -187,19 +187,23 @@ for i, activity in enumerate(activities):
 
     # ── ApEn topomap ──
     ax_apen = fig.add_subplot(outer_gs[i, 0])
-    im_apen, _ = mne.viz.plot_topomap(
+    im_apen, cn_apen = mne.viz.plot_topomap(
         apen_data, info, axes=ax_apen, show=False,
         cmap=apen_cmap, sensors=True, contours=6,
         vlim=(apen_vmin, apen_vmax))
+    cn_apen.set_alpha(0.25)
+    cn_apen.set_linewidths(0.4)
     ax_apen.set_title(f'{label}.  {activity}', fontsize=15, pad=8,
                       loc='left', weight='bold')
 
     # ── P-value topomap ──
     ax_pval = fig.add_subplot(outer_gs[i, 1])
-    im_pval, _ = mne.viz.plot_topomap(
+    im_pval, cn_pval = mne.viz.plot_topomap(
         pval_data, info, axes=ax_pval, show=False,
         cmap=pvalue_cmap, sensors=True, contours=6,
         vlim=(pvalue_vmin, pvalue_vmax))
+    cn_pval.set_alpha(0.25)
+    cn_pval.set_linewidths(0.4)
     ax_pval.set_title(f'{activity}', fontsize=15, pad=8,
                       loc='left', style='italic')
 

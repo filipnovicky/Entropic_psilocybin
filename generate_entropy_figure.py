@@ -1,6 +1,8 @@
 """
 Generate the Approximate Entropy topographic figure comparing
 psilocybin vs control conditions using corrected electrode locations.
+
+Outputs both PNG and PDF.
 """
 import json
 import scipy.io
@@ -13,6 +15,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.gridspec import GridSpec
 
 # ── 1. Load corrected electrode locations ──────────────────────────────────
 with open('corrected_electrode_locations.json', 'r') as f:
@@ -44,7 +47,6 @@ for e in electrodes:
     if key:
         mat_to_json[e] = key
 
-# Ordered list of channel names as they appear in the JSON (matched to .mat order)
 ch_names_json = [mat_to_json[e] for e in electrodes if e in mat_to_json]
 ch_names_mat  = [e for e in electrodes if e in mat_to_json]
 
@@ -118,53 +120,57 @@ result_matrix.rename(columns={'Restingstate': 'Resting State'}, inplace=True)
 pvalue_df = result_matrix.drop(columns='Electrodes').astype(float)
 pvalue_df.index = electrodes
 
-# ── 9. Helper functions for plotting ──────────────────────────────────────
+# ── 9. Helper functions ───────────────────────────────────────────────────
 def prepare_data(data, ch_names_mat_order):
-    """Reorder data from .mat electrode order to JSON channel order."""
     idx = [electrodes.index(e) for e in ch_names_mat]
     return data[idx]
 
 def calculate_difference(psi_df, ctrl_df):
     return psi_df.mean(axis=1) - ctrl_df.mean(axis=1)
 
-def plot_topomap(data, info, ax, title, vmin, vmax, cmap):
-    im, _ = mne.viz.plot_topomap(data, info, axes=ax, show=False,
-                                  cmap=cmap, sensors=True, contours=6,
-                                  vlim=(vmin, vmax))
-    ax.set_title(title, fontsize=20)
-    return im
-
-# ── 10. Build figure ──────────────────────────────────────────────────────
-plt.rcParams['font.family'] = 'serif'
-plt.rcParams['font.serif']  = ['Times New Roman'] + plt.rcParams['font.serif']
-
-apen_cmap = LinearSegmentedColormap.from_list(
-    "custom_apen", ['#4B0082', '#8B008B', '#C0C0C0', '#FFA500', '#FFFF00'], N=100)
-pvalue_cmap = LinearSegmentedColormap.from_list(
-    "custom_pvalue", ['#FF0000', '#FF8000', '#FFFF00', '#FFFFFF', '#E6E6E6'], N=100)
-
-fig = plt.figure(figsize=(26, 32))
-gs  = fig.add_gridspec(5, 7,
-                       width_ratios=[0.5, 10, 0.5, 1, 10, 0.5, 1],
-                       height_ratios=[1, 1, 1, 1, 1])
-
-activities = ['Overall', 'Meditation', 'Video', 'Resting State', 'Music']
-
-# Also set index on the full ctrl/psi splits for difference calculation
+# Also set index on the full ctrl/psi splits
 df_all_ctrl.index = electrodes
 df_all_psi.index  = electrodes
 
-apen_vmin, apen_vmax     = -0.125, 0.125
-pvalue_vmin, pvalue_vmax = pvalue_df.min().min(), 0.1
+# ── 10. Build improved figure ─────────────────────────────────────────────
+plt.rcParams.update({
+    'font.family': 'serif',
+    'font.serif': ['Times New Roman', 'DejaVu Serif'],
+    'font.size': 12,
+    'axes.linewidth': 0.8,
+    'axes.labelsize': 14,
+    'axes.titlesize': 16,
+})
 
-fig.text(0.31, 0.92, 'Approximate Entropy', fontsize=24, ha='center')
-fig.text(0.71, 0.92, 'Statistical Significance', fontsize=24, ha='center')
+apen_cmap = LinearSegmentedColormap.from_list(
+    "custom_apen", ['#4B0082', '#8B008B', '#C0C0C0', '#FFA500', '#FFFF00'], N=256)
+pvalue_cmap = LinearSegmentedColormap.from_list(
+    "custom_pvalue", ['#FF0000', '#FF8000', '#FFFF00', '#FFFFFF', '#E6E6E6'], N=256)
+
+activities = ['Overall', 'Meditation', 'Video', 'Resting State', 'Music']
+
+apen_vmin, apen_vmax = -0.125, 0.125
+pvalue_vmin = pvalue_df.min().min()
+pvalue_vmax = 0.1
+
+# ── Layout: 5 rows of topomaps, shared colorbars at bottom ───────────────
+fig = plt.figure(figsize=(14, 20))
+
+# Main grid: 6 rows (5 data + 1 colorbar), 2 columns
+outer_gs = GridSpec(6, 2, figure=fig,
+                    height_ratios=[1, 1, 1, 1, 1, 0.08],
+                    width_ratios=[1, 1],
+                    hspace=0.25, wspace=0.15,
+                    left=0.08, right=0.92, top=0.93, bottom=0.06)
+
+# Column headers
+fig.text(0.30, 0.955, 'Approximate Entropy Difference',
+         fontsize=16, ha='center', weight='bold')
+fig.text(0.72, 0.955, 'Statistical Significance (FDR)',
+         fontsize=16, ha='center', weight='bold')
 
 for i, activity in enumerate(activities):
-    fig.text(0.18, 0.89 - i * 0.159, chr(65 + i),
-             fontsize=25, ha='center', va='center', weight='bold')
-
-    # ── ApEn difference data ──
+    # ── Compute data ──
     if activity == 'Overall':
         diff = calculate_difference(df_psi, df_ctrl)
     else:
@@ -174,26 +180,48 @@ for i, activity in enumerate(activities):
         diff = calculate_difference(df_psi[psi_cols], df_ctrl[ctrl_cols])
 
     apen_data = prepare_data(diff.to_numpy().reshape(-1), ch_names_mat)
-
-    # ── P-value data ──
     pval_data = prepare_data(pvalue_df[activity].values, ch_names_mat)
 
-    # ── Plot ApEn difference ──
-    ax_apen  = fig.add_subplot(gs[i, 1])
-    im_apen  = plot_topomap(apen_data, info, ax_apen, activity,
-                             apen_vmin, apen_vmax, apen_cmap)
-    cbar_ax  = fig.add_subplot(gs[i, 2])
-    cbar     = fig.colorbar(im_apen, cax=cbar_ax, aspect=10)
-    cbar.set_label('Difference in\n Psilocybin from Control', fontsize=18)
+    # ── Row label ──
+    label = chr(65 + i)
 
-    # ── Plot p-values ──
-    ax_pval  = fig.add_subplot(gs[i, 4])
-    im_pval  = plot_topomap(pval_data, info, ax_pval, activity,
-                             pvalue_vmin, pvalue_vmax, pvalue_cmap)
-    cbar_ax2 = fig.add_subplot(gs[i, 5])
-    cbar2    = fig.colorbar(im_pval, cax=cbar_ax2, aspect=10)
-    cbar2.set_label('P-value', fontsize=18)
-    cbar2.ax.axhline(y=0.05, color='k', linestyle='--', linewidth=2)
+    # ── ApEn topomap ──
+    ax_apen = fig.add_subplot(outer_gs[i, 0])
+    im_apen, _ = mne.viz.plot_topomap(
+        apen_data, info, axes=ax_apen, show=False,
+        cmap=apen_cmap, sensors=True, contours=6,
+        vlim=(apen_vmin, apen_vmax))
+    ax_apen.set_title(f'{label}.  {activity}', fontsize=15, pad=8,
+                      loc='left', weight='bold')
 
-plt.savefig('eeg_topomap_plot.png', dpi=300, bbox_inches='tight')
-print("Figure saved to eeg_topomap_plot.png")
+    # ── P-value topomap ──
+    ax_pval = fig.add_subplot(outer_gs[i, 1])
+    im_pval, _ = mne.viz.plot_topomap(
+        pval_data, info, axes=ax_pval, show=False,
+        cmap=pvalue_cmap, sensors=True, contours=6,
+        vlim=(pvalue_vmin, pvalue_vmax))
+    ax_pval.set_title(f'{activity}', fontsize=15, pad=8,
+                      loc='left', style='italic')
+
+# ── Shared colorbars at the bottom ────────────────────────────────────────
+cbar_ax_left = fig.add_subplot(outer_gs[5, 0])
+cb1 = fig.colorbar(im_apen, cax=cbar_ax_left, orientation='horizontal')
+cb1.set_label(r'$\Delta$ ApEn  (Psilocybin $-$ Control)', fontsize=13)
+cb1.ax.tick_params(labelsize=11)
+
+cbar_ax_right = fig.add_subplot(outer_gs[5, 1])
+cb2 = fig.colorbar(im_pval, cax=cbar_ax_right, orientation='horizontal')
+cb2.set_label('FDR-corrected p-value', fontsize=13)
+cb2.ax.tick_params(labelsize=11)
+# Draw significance threshold line on p-value colorbar
+cb2.ax.axvline(x=0.05, color='k', linestyle='--', linewidth=1.5)
+cb2.ax.text(0.05, 1.35, 'p = .05', transform=cb2.ax.transData,
+            fontsize=10, ha='center', va='bottom')
+
+# ── Save ──────────────────────────────────────────────────────────────────
+for fmt in ['pdf', 'png']:
+    outpath = f'eeg_topomap_plot.{fmt}'
+    fig.savefig(outpath, dpi=300, bbox_inches='tight')
+    print(f"Saved {outpath}")
+
+plt.close(fig)

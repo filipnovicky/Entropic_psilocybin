@@ -86,7 +86,6 @@ figures/                   figures (generated)
 | `shared_variance.csv` | Shared variance of each individual topography with the reference |
 | `var_and_time.csv` | Total time and total explained variance per recording |
 | `corrected_electrode_locations.json` | 3-D positions for the 64 electrodes |
-| `eeg_template.fif` | Montage template |
 | `apen.csv` | Approximate entropy, 64 electrodes × 429 recordings |
 | `apen_complete_case.csv` | The same without interpolation, for the sensitivity check |
 

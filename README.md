@@ -3,8 +3,8 @@
 Supporting code and derived data for
 
 > Novický, F., Stoliker, D., Razi, A. & Zeldenrust, F.
-> *EEG microstates transition more rapidly and approximate entropy increases
-> under acute psilocybin.*
+> *EEG microstates change more rapidly and approximate entropy
+>  increases under acute psilocybin*
 
 The analyses run on the PsiConnect dataset: 63 participants recorded in a
 baseline session and again ~200 min after 19 mg of psilocybin, in four

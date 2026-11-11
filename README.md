@@ -7,7 +7,7 @@ Supporting code and derived data for
 >  increases under acute psilocybin*
 
 The analyses run on the PsiConnect dataset: 63 participants recorded in a
-baseline session and again ~200 min after 19 mg of psilocybin, in four
+baseline session and again ~150 min after 19 mg of psilocybin, in four
 conditions (video watching, eyes-closed rest, guided meditation, music
 listening). 429 recordings in total.
 
